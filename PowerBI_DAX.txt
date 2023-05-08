@@ -1,0 +1,12 @@
+06/01/2012
+07/12/2013
+
+Dates = CALENDAR(DATE(2012, 1, 6), DATE(2013, 12, 7))
+
+Year = YEAR(Dates[Date])
+MonthNum = MONTH(Dates[Date])
+WeekNum = WEEKNUM(Dates[Date])
+DayoftheWeek = FORMAT(Dates[Date], "DDDD")
+
+TOTAL_PRICE = SUM(SALES[‘UNIT_PRICE’])
+TOTAL_COST = SUM(SALES[‘UNIT_COST’])
